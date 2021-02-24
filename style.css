@@ -1,0 +1,84 @@
+body{
+	background-color: #ff99c8;
+}
+#about{
+	background-color: #d16d7f;
+}
+#container{
+	width: 1100px;
+	margin: 0 auto;
+	background-color: #c9feff;
+}
+header{
+	background-color: yellow;
+	padding: 0px;
+}
+header h2{
+	margin: 0;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #c0fdff;
+  text-align: center;
+  padding: 14px 106px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+footer{
+	background-color: #ffc0cb;
+	padding: 40px;
+}
+footer p{
+	margin: 0;
+}
+img {
+	width: 400px;
+}
+.two-column{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 40px;
+	background-color: #ffc0cb;
+}
+#projects .two-column{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+.two-column div{
+	background-color: #c9feff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.three-column{
+	display: grid;
+	grid-template-columns: 33% 33% 33% 
+	padding: 40px;
+	background-clor: purple;
+}
+.three-column div{
+	background-color: #c9feff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
